@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         Mylable.isHidden = false;
         startshowinglogo.isHidden = true;
     }
-    
+    func sendEmail(name:String){
+        print("Your email is \(name)@Gmail.com");
+    }
 }
 
